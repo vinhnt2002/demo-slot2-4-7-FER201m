@@ -9,7 +9,7 @@ const Player = () => {
            <img src={player.img}/>
              <h3>{player.name}</h3>
              <p className='title'>{player.club}</p>
-             <p><button>Detail</button></p>
+             <p className='bg-black hover:bg-black[1/3]'><button>Detail</button></p>
            </div>
          </div>
         ))}
